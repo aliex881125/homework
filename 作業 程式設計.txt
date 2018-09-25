@@ -1,0 +1,75 @@
+    Scanner scn = new Scanner(System.in);
+        System.out.println("請輸入西元年:");
+     int A = scn.nextInt();
+        if((A%4 ==0&&A%100 != 0)||A%400==0){
+            System.out.println("true"); }
+        else {
+            System.out.println("false");}
+     int B = scn.nextInt();
+        if((B%4 ==0&&B%100 != 0)||B%400==0){
+            System.out.println("true"); }
+        else {
+            System.out.println("false");}
+     int C = scn.nextInt();
+      if((C%4 ==0&&C%100 != 0)||C%400==0){
+            System.out.println("true"); }
+            else {
+          System.out.println("false");}
+        }
+
+//<---------------------------分隔------------------------------------>
+        //Scanner scn = new Scanner(System.in);
+       // System.out.println("輸入三角形三邊長:");
+        //int a = scn.nextInt();
+        //int b = scn.nextInt();
+        //int c = scn.nextInt();
+        //if (a<=b&&b<=c&&a<=c){
+        //System.out.println("True");}
+        //else {
+          //  System.out.println("False");
+        //}
+        //}
+
+//<---------------------------分隔------------------------------------>
+
+        //Scanner scn = new Scanner(System.in);
+       // System.out.println("請輸入體重 身高:");
+     //Float v1 = scn.nextFloat();
+     //Double F = v1/0.454;
+       // System.out.println("體重"+F);
+     //Float v2 = scn.nextFloat();
+     //Double C = v2/2.54;
+       // System.out.println("身高"+C);
+
+//-------------------------------分隔------------------------------------>
+
+        // Scanner scn = new Scanner(System.in);
+       // System.out.println("輸入國文,英文和數學成績:");
+        //int v1 = scn.nextInt();
+        //int v2 = scn.nextInt();
+        //int v3 = scn.nextInt();
+        //System.out.println("總分");
+        //System.out.println(v1+v2+v3);
+       //int F = v1+v2+v3;
+        //System.out.println("平均");
+        //System.out.println(F/3);
+
+//<---------------------------------分隔------------------------------------>
+
+        // Scanner scn = new Scanner(System.in);
+        //System.out.println("請輸入兩個整數:");
+        //int v1 = scn.nextInt();
+        //int v2 = scn.nextInt();
+        //System.out.println(v1+v2);
+        //System.out.println(v1-v2);
+        //System.out.println(v1*v2);
+
+ //<--------------------------------分隔----------------------------------->
+
+        // Scanner scn = new Scanner(System.in);
+        //System.out.println("請輸入攝氏溫度:");
+        //Float C = scn.nextFloat();
+        //Float F =C*9/5+32;
+        //System.out.println("華氏溫度為:" + F);
+
+    }
